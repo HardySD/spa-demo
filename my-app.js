@@ -13,8 +13,8 @@ class MyApp extends HTMLElement{
     render(){
         this.shadowRoot.innerHTML = /* html */`
         ${
-            (window.currentPath === '/' && '<home-page></home-page>') ||
-            (window.currentPath === '/about' && '<about-page></about-page>')
+            (window.currentPath === '/spa-demo/' && '<home-page></home-page>') ||
+            (window.currentPath === '/spa-demo/about/' && '<about-page></about-page>')
         }
         `;
     }

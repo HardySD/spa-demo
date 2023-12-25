@@ -9,9 +9,9 @@ const btnHome = document.querySelector('.home');
 const btnAbout = document.querySelector('.about');
 
 btnHome.addEventListener('click', () => {
-    navigate('/');
+    navigate('/spa-demo/');
 });
 
 btnAbout.addEventListener('click', () => {
-    navigate('/about');
+    navigate('/spa-demo/about/');
 });
